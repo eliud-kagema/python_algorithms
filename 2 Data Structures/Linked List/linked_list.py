@@ -15,4 +15,14 @@ class Node(object):
     def set_data(self, val):
         self.val = val
 
-    def get_next()
+    def get_next(self):
+        return self.next
+    
+    def set_next(self, next):
+        self.next = next
+
+
+# the LinkedList class
+class LinkedList(object):
+    def __init__(self, head=None):
+        
